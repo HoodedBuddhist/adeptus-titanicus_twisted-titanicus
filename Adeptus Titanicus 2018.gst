@@ -28258,10 +28258,10 @@ Structure Point: 1
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="896c-0f8b-ae9f-6fdb" name="Carapace" hidden="false" targetId="33e1-d3ed-4420-3e22" primary="false"/>
         <categoryLink id="7421-6471-28fc-7ccc" name="Concussive" hidden="false" targetId="62f0-d5ca-5ce1-596f" primary="false"/>
         <categoryLink id="a5d6-032b-548d-5ac0" name="Rending" hidden="false" targetId="511f-4690-c2b7-9996" primary="false"/>
         <categoryLink id="0e0a-f15c-61bc-e270" name="Arm" hidden="false" targetId="44b5-8770-ea8e-2401" primary="true"/>
+        <categoryLink id="8f4f-7b57-d6e3-ae33" name="Arc: Front" hidden="false" targetId="6bfc-b62c-823a-5a29" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0dde-e52e-4b48-90be" name="Weapon Destroyed" hidden="true" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
@@ -28277,15 +28277,15 @@ Structure Point: 1
           <characteristics>
             <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">3</characteristic>
             <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">5</characteristic>
-            <characteristic name="Short Range" typeId="8320-f9a1-68a0-47c2">12&quot;</characteristic>
-            <characteristic name="Short Accuracy" typeId="68ee-0c9a-e4c2-4a34"/>
+            <characteristic name="Short Range" typeId="8320-f9a1-68a0-47c2">16&quot;</characteristic>
+            <characteristic name="Short Accuracy" typeId="68ee-0c9a-e4c2-4a34">-</characteristic>
             <characteristic name="Long Range" typeId="bdee-aca0-6c3e-cc27">24&quot;</characteristic>
-            <characteristic name="Long Accuracy" typeId="98c1-7f92-4b2c-8d4c"/>
+            <characteristic name="Long Accuracy" typeId="98c1-7f92-4b2c-8d4c">-</characteristic>
             <characteristic name="Disabled Roll" typeId="02bc-8716-7743-7b16">10+</characteristic>
             <characteristic name="X Value" typeId="f14d-88df-2e41-f0b4">(1)</characteristic>
             <characteristic name="Limited" typeId="b21f-61e9-4f0d-88e6"/>
-            <characteristic name="Trait" typeId="bcd4-cb45-5d53-b7d8">Carapace, Voidbreaker (2), Beam (1) {Draining}</characteristic>
-            <characteristic name="Critically Disabled Roll" typeId="2a6c-74d9-5a61-04bf">2+</characteristic>
+            <characteristic name="Trait" typeId="bcd4-cb45-5d53-b7d8"> Beam (1) {Draining}, Voidbreaker (2)</characteristic>
+            <characteristic name="Critically Disabled Roll" typeId="2a6c-74d9-5a61-04bf"></characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -28294,6 +28294,7 @@ Structure Point: 1
         <categoryLink id="ea40-7fdf-2ebd-e9cb" name="Beam (X)" hidden="false" targetId="1875-e91f-1789-465f" primary="false"/>
         <categoryLink id="ddac-4e62-d9b3-401d" name="Draining" hidden="false" targetId="8ab9-d312-06e4-8ba0" primary="false"/>
         <categoryLink id="d398-8f3b-2532-3323" name="Arm" hidden="false" targetId="44b5-8770-ea8e-2401" primary="true"/>
+        <categoryLink id="b2b1-ab82-2622-9514" name="Arc: Front" hidden="false" targetId="6bfc-b62c-823a-5a29" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="0d8b-b1d5-85a4-c3c6" name="Weapon Destroyed" hidden="true" collective="false" import="true" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
