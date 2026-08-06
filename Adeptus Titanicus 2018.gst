@@ -22378,7 +22378,7 @@ For example, if the Reaver from a Venator Light Maniple was replaced with a Warl
                 <entryLink id="6e33-48f6-2013-3b3f" name="Laser Blaster" hidden="false" collective="false" import="false" targetId="375a-7b78-8edd-71d5" type="selectionEntry"/>
                 <entryLink id="9bad-1aff-1896-7087" name="Melta Cannon" hidden="false" collective="false" import="false" targetId="087a-abff-3ffe-f488" type="selectionEntry"/>
                 <entryLink id="7513-a417-fe47-e267" name="Volcano Cannon" hidden="false" collective="false" import="false" targetId="8bd4-e1ff-d447-389e" type="selectionEntry"/>
-                <entryLink id="2021-8c59-2b52-27b9" name="Chasmata Pattern Laser Blaster" hidden="true" collective="false" import="false" targetId="01e4-e3f5-4396-d5c4" type="selectionEntry">
+                <entryLink id="2021-8c59-2b52-27b9" name="=Tempestus= Chasmata Laser Blaster" hidden="true" collective="false" import="false" targetId="01e4-e3f5-4396-d5c4" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="hidden" value="false">
                       <conditions>
@@ -22405,6 +22405,8 @@ For example, if the Reaver from a Venator Light Maniple was replaced with a Warl
                     </modifier>
                   </modifiers>
                 </entryLink>
+                <entryLink id="9874-32ff-8bac-eabb" name="Graviton Obliterator" hidden="false" collective="false" import="true" targetId="6c00-d9c4-d892-61de" type="selectionEntry"/>
+                <entryLink id="e1ae-de97-4aa3-afc0" name="Volkite Annihilator" hidden="false" collective="false" import="true" targetId="4fe7-d86f-6e82-5376" type="selectionEntry"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="52a3-9f9b-284a-8ab7" name="Carapace" hidden="false" collective="false" import="false">
@@ -28285,7 +28287,7 @@ Structure Point: 1
             <characteristic name="X Value" typeId="f14d-88df-2e41-f0b4">(1)</characteristic>
             <characteristic name="Limited" typeId="b21f-61e9-4f0d-88e6"/>
             <characteristic name="Trait" typeId="bcd4-cb45-5d53-b7d8"> Beam (1) {Draining}, Voidbreaker (2)</characteristic>
-            <characteristic name="Critically Disabled Roll" typeId="2a6c-74d9-5a61-04bf"></characteristic>
+            <characteristic name="Critically Disabled Roll" typeId="2a6c-74d9-5a61-04bf"/>
           </characteristics>
         </profile>
       </profiles>
