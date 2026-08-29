@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="975a-00f4-df37-b565" name="Adeptus Titanicus 2018" revision="93" battleScribeVersion="2.03" authorName="Play Titanicus BS Team" authorContact="You can find us on the Discord Server for comments and feedback:  https://discord.com/invite/UrrPB3T" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="975a-00f4-df37-b565" name="Adeptus Titanicus 2018" revision="95" battleScribeVersion="2.03" authorName="Play Titanicus BS Team" authorContact="You can find us on the Discord Server for comments and feedback:  https://discord.com/invite/UrrPB3T" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Create a Legio Battlegroup by adding a Battlegroup to your Roster. Maniples and Reinforcements can be added directly to a Legio Battlegroup!
 
 To create a Household Battlegroup add a Household to your Roster. Each Lance is a separate Force that needs to be added to your Household. Reinforcements can then be added directly to your Household, or each of your added Lance forces!
@@ -23643,6 +23643,15 @@ For example, if the Reaver from a Venator Light Maniple was replaced with a Warl
         </entryLink>
         <entryLink id="9864-2da3-5f35-c2e7" name="Loyalist Wargear" hidden="false" collective="false" import="true" targetId="c354-c2bb-8d84-0770" type="selectionEntryGroup"/>
         <entryLink id="ebdf-52f9-0ae0-c477" name="Universal Wargear" hidden="false" collective="false" import="true" targetId="f360-b4bd-e6cd-d077" type="selectionEntryGroup"/>
+        <entryLink id="tt26-warbringer-tracking-gyroscopes" name="Tracking Gyroscopes" hidden="false" collective="false" import="true" targetId="28ac-d2b9-5667-854e" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="a731-e220-2d8a-41bf" value="0.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-warbringer-tracking-gyroscopes-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-warbringer-tracking-gyroscopes-max" type="max"/>
+          </constraints>
+        </entryLink>
         <entryLink id="a4ba-8f7d-98d7-1127" name="Corrupt Titan" hidden="false" collective="false" import="true" targetId="a6b6-2e17-4aaa-3ec0" type="selectionEntry"/>
         <entryLink id="8e0c-4aec-51bc-7494" name="Base Mutation" hidden="false" collective="false" import="true" targetId="f085-672c-f8c5-11c1" type="selectionEntryGroup"/>
         <entryLink id="b514-61b3-7daa-c0c2" name="Traitor Wargear" hidden="false" collective="false" import="true" targetId="3bce-46aa-99ca-8f60" type="selectionEntryGroup"/>
@@ -24736,6 +24745,7 @@ Take one selection per Dice.  Reaver Gatling Blaster should have 6 selections fo
       </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="706f-6074-c1e5-e759" type="max"/>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="tt26-vortex-payload-roster-max" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="badc-72f8-1211-daff" type="max"/>
       </constraints>
       <rules>
@@ -26630,6 +26640,7 @@ Additionally, if the Head is chosen, in a campaign the Titan’s crew will alway
     <selectionEntry id="75f9-5be1-91bd-4a04" name="=Crusade= Blind Missiles" hidden="true" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3fb-b264-0de8-a67e" type="max"/>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="tt26-crusade-blind-missiles-roster-max" type="max"/>
       </constraints>
       <rules>
         <rule id="bcaf-d6f4-42fd-9595" name="Blind Missiles" publicationId="2988-f24d-39ef-352e" page="98" hidden="false">
@@ -26771,6 +26782,9 @@ Take 1 selection for each weapon you are upgrading.</description>
       </costs>
     </selectionEntry>
     <selectionEntry id="b44a-669d-a9d2-6cdc" name="=Crusade= Autoloaders" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="tt26-crusade-autoloaders-roster-max" type="max"/>
+      </constraints>
       <rules>
         <rule id="805e-e75f-f270-6661" name="Autoloaders" publicationId="2988-f24d-39ef-352e" page="99" hidden="false">
           <description>Any Titan that is equipped with a Limited (X) Carapace weapon can take Autoloaders for a cost equal to the base cost of the weapon +5 points. Each of the Titan’s weapons must be upgraded separately. A weapon equipped with Autoloaders increases the (X) value by 1. This upgrade can be bought multiple times for the same weapon, increasing the cost to take Autoloaders by +10 points for each additional purchase, e.g., a Reaver warp missile could be upgraded twice (upgrading Limited (1) trait to a Limited (3) trait) with Autoloaders at a cost of +50 points – +15 points for the first upgrade and +25 points for the second.
@@ -26861,6 +26875,7 @@ Take 1 selection for each weapon you are upgrading.</description>
     <selectionEntry id="f474-9d16-9408-0a7d" name="=Crusade= Diabatic Warheads" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4a0-c4c4-7f52-fb7c" type="max"/>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="tt26-crusade-diabatic-warheads-roster-max" type="max"/>
       </constraints>
       <rules>
         <rule id="dbf8-966c-9c0e-df53" name="Diabatic Warheads" publicationId="2988-f24d-39ef-352e" page="100" hidden="false">
@@ -30208,6 +30223,7 @@ Structure Point: 1
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
+                    <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d2b6-f342-ccdb-b9cc" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3ad7-cd10-8d6e-8c2e" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c45d-04e4-f35f-8b20" type="instanceOf"/>
                     <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fb67-1918-d9b1-b946" type="instanceOf"/>
