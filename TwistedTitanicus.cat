@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="tt26-retr-2026-cat" name="Twisted Titanicus" revision="4" battleScribeVersion="2.03" library="true" gameSystemId="975a-00f4-df37-b565" gameSystemRevision="92" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="tt26-retr-2026-pub" name="Twisted Titanicus: Retribution 2026 Event Pack"/>
+  </publications>
+  <selectionEntries>
+    <selectionEntry id="tt26-heavy-mandatum" name="Heavy Mandatum Battleline Maniple" publicationId="tt26-retr-2026-pub" page="" hidden="false" collective="false" import="false" type="unit">
+      <rules>
+        <rule id="tt26-pack-master" name="Pack Master" publicationId="tt26-retr-2026-pub" page="" hidden="false">
+          <description>As long as a Warmaster/Iconoclast Titan from this maniple is on the battlefield, Warhound Titans from this maniple add 2 to the result of any Command check made when issuing Orders. In addition, Warhound Titans from this maniple add +1 to Hit rolls for attacks made against targets within 12&quot; of a Warmaster/Iconoclast Titan from this maniple.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="tt26-heavy-mandatum-maniple" name="Maniple" hidden="false" targetId="6982-2d18-55cb-61e5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="tt26-heavy-mandatum-heavy-titan" name="Mandatory Heavy Titan - choose 1" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-titan-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-titan-max" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="tt26-heavy-mandatum-warmaster" name="Warmaster Titan" hidden="false" collective="false" import="false" targetId="2062-8f97-c49e-abe2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-warmaster-max" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="tt26-heavy-mandatum-iconoclast" name="Warmaster Iconoclast Heavy Battle Titan" hidden="false" collective="false" import="true" targetId="c45d-04e4-f35f-8b20" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-iconoclast-max" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="tt26-heavy-mandatum-heavy-scout" name="Heavy Scout Titan" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-mandatum-heavy-scout-max" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="tt26-heavy-mandatum-replace-warhound-warden" name="Replace optional Warhound with Warden" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-mandatum-replace-warhound-warden-max" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="tt26-heavy-mandatum-replace-warhound-warden-category" name="Replace optional Warhound with Warden" hidden="false" targetId="warden-replace-optional-warhound" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="tt26-heavy-mandatum-warhound" name="Warhound Titan" hidden="false" collective="false" import="false" targetId="3ad7-cd10-8d6e-8c2e" type="selectionEntry">
+          <modifiers>
+            <modifier type="decrement" field="tt26-warhound-max" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-warhound-min" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-warhound-max" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="tt26-heavy-mandatum-warden" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="tt26-heavy-mandatum-warden-min" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="tt26-heavy-mandatum-warden-max" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-mandatum-warden-min" type="min"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-mandatum-warden-max" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="tt26-heavy-mandatum-titan-legion" name="Titan Legion" hidden="false" collective="false" import="false" targetId="6202-19dc-f26f-9b64" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-titan-legion-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-titan-legion-max" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="tt26-heavy-regia" name="Heavy Regia Battleline Maniple" publicationId="tt26-retr-2026-pub" page="" hidden="false" collective="false" import="false" type="unit">
+      <rules>
+        <rule id="tt26-royal-court" name="Royal Court" publicationId="tt26-retr-2026-pub" page="" hidden="false">
+          <description>The Warmaster/Iconoclast and the Warlord Titans within this maniple represent the King &amp; Queen, whose role it is to support each other in battle. Whilst the King &amp; Queen are within 12&quot; of each other, if one successfully gains an order, the other may be issued the same order without the need to pass a Command check.
+
+The Warhound Titans are Courtiers whose role it is to shield the King &amp; Queen. Courtiers can merge void shields with the King &amp; Queen as if they were part of the same squadron. In addition, they may share shields with the King or Queen while within 3&quot; of them rather than only when in base contact.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="tt26-heavy-regia-maniple" name="Maniple" hidden="false" targetId="6982-2d18-55cb-61e5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="tt26-heavy-regia-heavy-titan" name="Mandatory Heavy Titan - choose 1" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-regia-heavy-titan-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-regia-heavy-titan-max" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="tt26-heavy-regia-warmaster" name="Warmaster Titan" hidden="false" collective="false" import="false" targetId="2062-8f97-c49e-abe2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-regia-warmaster-max" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="tt26-heavy-regia-iconoclast" name="Warmaster Iconoclast Heavy Battle Titan" hidden="false" collective="false" import="true" targetId="c45d-04e4-f35f-8b20" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-regia-iconoclast-max" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="tt26-heavy-regia-heavy-scout" name="Heavy Scout Titan" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-regia-heavy-scout-max" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="tt26-heavy-regia-replace-warhound-warden" name="Replace optional Warhound with Warden" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-regia-replace-warhound-warden-max" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="tt26-heavy-regia-replace-warhound-warden-category" name="Replace optional Warhound with Warden" hidden="false" targetId="warden-replace-optional-warhound" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+                <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="tt26-heavy-regia-warlord" name="Warlord Titan" hidden="false" collective="false" import="false" targetId="5122-cb02-8703-ce88" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-regia-warlord-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-regia-warlord-max" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="tt26-heavy-regia-warhound" name="Warhound Titan" hidden="false" collective="false" import="false" targetId="3ad7-cd10-8d6e-8c2e" type="selectionEntry">
+          <modifiers>
+            <modifier type="decrement" field="tt26-regia-warhound-max" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-regia-warhound-min" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-regia-warhound-max" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="tt26-heavy-regia-warden" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="tt26-heavy-regia-warden-min" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="tt26-heavy-regia-warden-max" value="1.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-regia-warden-min" type="min"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-regia-warden-max" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="tt26-heavy-regia-titan-legion" name="Titan Legion" hidden="false" collective="false" import="false" targetId="6202-19dc-f26f-9b64" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-regia-titan-legion-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-regia-titan-legion-max" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="tt26-heavy-extergimus" name="Heavy Extergimus Battleline Maniple" publicationId="tt26-retr-2026-pub" page="" hidden="false" collective="false" import="false" type="unit">
+      <rules>
+        <rule id="tt26-scorched-earth" name="Scorched Earth" publicationId="tt26-retr-2026-pub" page="" hidden="false">
+          <description>During the Combat phase, when a Titan from this maniple makes an attack with a weapon without the Melee trait, it may increase the Strength value of the weapon by 2 for the duration of the attack. This must be declared before rolling to Hit. If it does so, increase the Titan's Reactor level by 1 (or 2 if the weapon has a Dice value of 5 or greater), in addition to any other advances associated with weapon fire.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="tt26-heavy-extergimus-maniple" name="Maniple" hidden="false" targetId="6982-2d18-55cb-61e5" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="tt26-heavy-extergimus-heavy-titan" name="Mandatory Heavy Titan - choose 1" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-extergimus-heavy-titan-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-extergimus-heavy-titan-max" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="tt26-heavy-extergimus-warmaster" name="Warmaster Titan" hidden="false" collective="false" import="false" targetId="2062-8f97-c49e-abe2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-extergimus-warmaster-max" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="tt26-heavy-extergimus-iconoclast" name="Warmaster Iconoclast Heavy Battle Titan" hidden="false" collective="false" import="true" targetId="c45d-04e4-f35f-8b20" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-extergimus-iconoclast-max" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="tt26-heavy-extergimus-warlord" name="Warlord Titan" hidden="false" collective="false" import="false" targetId="5122-cb02-8703-ce88" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-extergimus-warlord-min" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-extergimus-warlord-max" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="tt26-heavy-extergimus-warbringer" name="Warbringer Nemesis Titan" hidden="false" collective="false" import="false" targetId="d2b6-f342-ccdb-b9cc" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-extergimus-warbringer-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-extergimus-warbringer-max" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="tt26-heavy-extergimus-titan-legion" name="Titan Legion" hidden="false" collective="false" import="false" targetId="6202-19dc-f26f-9b64" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-extergimus-titan-legion-min" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-extergimus-titan-legion-max" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
