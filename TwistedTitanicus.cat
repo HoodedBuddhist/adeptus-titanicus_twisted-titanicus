@@ -49,7 +49,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-mandatum-replace-warhound-warden-max" type="max"/>
               </constraints>
               <categoryLinks>
-                <categoryLink id="tt26-heavy-mandatum-replace-warhound-warden-category" name="Replace optional Warhound with Warden" hidden="false" targetId="warden-replace-optional-warhound" primary="false"/>
+                <categoryLink id="tt26-heavy-mandatum-replace-warhound-warden-category" name="Replace optional Warhound with Warden" hidden="false" targetId="ad7c-c8cf-9c04-5f1a" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
@@ -64,7 +64,7 @@
           <modifiers>
             <modifier type="decrement" field="tt26-warhound-max" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -77,17 +77,17 @@
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="tt26-heavy-mandatum-warden-min" value="1.0">
+            <modifier type="increment" field="tt26-heavy-mandatum-warden-min" value="1.0">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="tt26-heavy-mandatum-warden-max" value="1.0">
+            <modifier type="increment" field="tt26-heavy-mandatum-warden-max" value="1.0">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -155,7 +155,7 @@ The Warhound Titans are Courtiers whose role it is to shield the King &amp; Quee
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-regia-replace-warhound-warden-max" type="max"/>
               </constraints>
               <categoryLinks>
-                <categoryLink id="tt26-heavy-regia-replace-warhound-warden-category" name="Replace optional Warhound with Warden" hidden="false" targetId="warden-replace-optional-warhound" primary="false"/>
+                <categoryLink id="tt26-heavy-regia-replace-warhound-warden-category" name="Replace optional Warhound with Warden" hidden="false" targetId="ad7c-c8cf-9c04-5f1a" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
@@ -176,7 +176,7 @@ The Warhound Titans are Courtiers whose role it is to shield the King &amp; Quee
           <modifiers>
             <modifier type="decrement" field="tt26-regia-warhound-max" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -189,17 +189,17 @@ The Warhound Titans are Courtiers whose role it is to shield the King &amp; Quee
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="tt26-heavy-regia-warden-min" value="1.0">
+            <modifier type="increment" field="tt26-heavy-regia-warden-min" value="1.0">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="tt26-heavy-regia-warden-max" value="1.0">
+            <modifier type="increment" field="tt26-heavy-regia-warden-max" value="1.0">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
               </conditions>
             </modifier>
           </modifiers>
