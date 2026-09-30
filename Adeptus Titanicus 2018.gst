@@ -7409,13 +7409,6 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </costs>
             </selectionEntry>
             <selectionEntry id="a534-b779-5115-0a13" name="Replace optional Warhound with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="93ca-62fc-023f-3323" type="max"/>
               </constraints>
@@ -8524,13 +8517,6 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
           </constraints>
           <selectionEntries>
             <selectionEntry id="dec7-27a3-9cf2-8c95" name="Replace optional Reaver with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bf1c-7598-a0f6-c2f8" type="max"/>
               </constraints>
@@ -9292,13 +9278,6 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </costs>
             </selectionEntry>
             <selectionEntry id="fd2f-f9f9-6353-a137" name="Replace optional Warhound with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e7b1-88c8-4bbd-5702" type="max"/>
               </constraints>
@@ -9311,13 +9290,6 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </costs>
             </selectionEntry>
             <selectionEntry id="c978-9344-dfc0-ff32" name="Replace optional Reaver with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cf65-b951-7fea-fc06" type="max"/>
               </constraints>
@@ -10425,13 +10397,6 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
           </constraints>
           <selectionEntries>
             <selectionEntry id="99fe-933d-219c-f07c" name="Replace optional Reaver with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="79ad-2220-7c3d-8057" type="max"/>
               </constraints>
@@ -10923,13 +10888,6 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </costs>
             </selectionEntry>
             <selectionEntry id="d018-5b8e-e13b-129c" name="Replace optional Warhound with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="049c-c79b-ed1d-5525" type="max"/>
               </constraints>
@@ -10942,13 +10900,6 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </costs>
             </selectionEntry>
             <selectionEntry id="caa4-3402-74b1-63ab" name="Replace optional Reaver with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9057-3525-be60-3ced" type="max"/>
               </constraints>
@@ -11718,13 +11669,6 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </costs>
             </selectionEntry>
             <selectionEntry id="f162-316a-2fb8-c936" name="Replace optional Warhound with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cd67-e6bf-d339-8eac" type="max"/>
               </constraints>
@@ -12425,13 +12369,6 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </costs>
             </selectionEntry>
             <selectionEntry id="2e48-d545-30a5-5841" name="Replace optional Warhound with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cf42-2f22-8879-8a40" type="max"/>
               </constraints>
@@ -12963,13 +12900,6 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </costs>
             </selectionEntry>
             <selectionEntry id="3381-675b-1f5f-49cb" name="Replace optional Warhound with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2e7b-1d62-d5f5-e959" type="max"/>
               </constraints>
@@ -14304,13 +14234,6 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
           </constraints>
           <selectionEntries>
             <selectionEntry id="d06e-76b9-9eb0-4e02" name="Replace optional Reaver with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7422-8522-f15f-2031" type="max"/>
               </constraints>
@@ -14936,13 +14859,6 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </costs>
             </selectionEntry>
             <selectionEntry id="7625-93e2-f218-93d3" name="Replace optional Warhound with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1c6e-03a3-7622-f23b" type="max"/>
               </constraints>
@@ -14955,13 +14871,6 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </costs>
             </selectionEntry>
             <selectionEntry id="4b2b-9313-0d27-60d3" name="Replace optional Reaver with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d537-d884-1582-faed" type="max"/>
               </constraints>
@@ -15693,13 +15602,6 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </costs>
             </selectionEntry>
             <selectionEntry id="79bd-2912-99f3-d01c" name="Replace optional Warhound with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="09e3-133a-af6f-c6e2" type="max"/>
               </constraints>
@@ -16406,13 +16308,6 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
           </constraints>
           <selectionEntries>
             <selectionEntry id="bbd9-660a-a68d-b265" name="Replace optional Reaver with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6895-85ec-f0d8-a3d8" type="max"/>
               </constraints>
@@ -16879,13 +16774,6 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </costs>
             </selectionEntry>
             <selectionEntry id="3bfe-1a10-a117-7e09" name="Replace optional Warhound with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1a39-dad4-e738-95cd" type="max"/>
               </constraints>
@@ -18008,13 +17896,6 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
           </constraints>
           <selectionEntries>
             <selectionEntry id="236a-1676-e2aa-89db" name="Replace optional Reaver with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="902f-6db1-26f3-cf00" type="max"/>
               </constraints>
@@ -19157,13 +19038,6 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               </costs>
             </selectionEntry>
             <selectionEntry id="cec8-88e4-477f-832b" name="Replace optional Reaver with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bf6a-0ccd-eac6-4174" type="max"/>
               </constraints>
@@ -19813,13 +19687,6 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               </costs>
             </selectionEntry>
             <selectionEntry id="ae50-3a10-d92d-b0a8" name="Replace optional Warhound with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2d23-3508-7082-a9fa" type="max"/>
               </constraints>
@@ -20345,13 +20212,6 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               </costs>
             </selectionEntry>
             <selectionEntry id="5ecb-b83e-ad52-4104" name="Replace optional Warhound with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4754-0692-df12-1431" type="max"/>
               </constraints>
@@ -20364,13 +20224,6 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               </costs>
             </selectionEntry>
             <selectionEntry id="db8d-81fd-b8a6-0328" name="Replace optional Reaver with Warden" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="4f76-34ac-3cf7-34c6" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="754c-d633-fd34-8e36" type="max"/>
               </constraints>
