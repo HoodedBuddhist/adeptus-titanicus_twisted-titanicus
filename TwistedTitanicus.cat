@@ -73,7 +73,7 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-warhound-max" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="tt26-heavy-mandatum-warden" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="tt26-heavy-mandatum-warden" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -81,14 +81,14 @@
               </conditions>
             </modifier>
             <modifier type="increment" field="tt26-heavy-mandatum-warden-min" value="1.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-              </conditions>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="increment" field="tt26-heavy-mandatum-warden-max" value="1.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-              </conditions>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
@@ -185,7 +185,7 @@ The Warhound Titans are Courtiers whose role it is to shield the King &amp; Quee
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-regia-warhound-max" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="tt26-heavy-regia-warden" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="tt26-heavy-regia-warden" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
@@ -193,14 +193,14 @@ The Warhound Titans are Courtiers whose role it is to shield the King &amp; Quee
               </conditions>
             </modifier>
             <modifier type="increment" field="tt26-heavy-regia-warden-min" value="1.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-              </conditions>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="increment" field="tt26-heavy-regia-warden-max" value="1.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-              </conditions>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
