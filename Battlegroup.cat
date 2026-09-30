@@ -4,8 +4,7 @@
     <publication id="7c04-d50d-pubN65537" name="Adeptus Titanicus 2018"/>
   </publications>
   <catalogueLinks>
-    <catalogueLink id="tt26-battlegroup-link" name="Twisted Titanicus" targetId="tt26-retr-2026-cat" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="warden-titan-battlegroup-link" name="Warden Titan" targetId="warden-titan-cat" type="catalogue" importRootEntries="false"/>
+    <catalogueLink id="tt26-battlegroup-link" name="Twisted Titanicus" targetId="tt26-retr-2026-cat" type="catalogue" importRootEntries="false"/>
   </catalogueLinks>
   <forceEntries>
     <forceEntry id="d377-9ed7-0d3e-7f70" name="Battlegroup" hidden="false">
@@ -954,7 +953,7 @@
         <categoryLink id="8b07-8368-d9c0-056e" name="New CategoryLink" hidden="false" targetId="917a-77ef-30e4-b812" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="warden-titan-battlegroup-entry" name="Warden Titan" hidden="false" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+    <entryLink id="09c5-cac6-a92d-ebcb" name="Warden Titan" hidden="false" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -963,10 +962,10 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="warden-titan-battlegroup-category" name="Titan" hidden="false" targetId="3f71-3a59-3b75-4ecf" primary="true"/>
+        <categoryLink id="08e2-0bd8-592f-5bf3" name="Titan" hidden="false" targetId="3f71-3a59-3b75-4ecf" primary="true"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="warden-titan-battlegroup-auxiliary" name="Auxiliary Titan" hidden="false" collective="false" import="true" targetId="4c64-8a28-7368-156d" type="selectionEntry"/>
+        <entryLink id="dd7a-f2b3-4fa0-f0e1" name="Auxiliary Titan" hidden="false" collective="false" import="true" targetId="4c64-8a28-7368-156d" type="selectionEntry"/>
       </entryLinks>
     </entryLink>
     <entryLink id="cd15-0d60-20eb-9426" name="Dire Wolf Titan" hidden="false" collective="false" import="true" targetId="76b8-ecdb-cbf6-0c45" type="selectionEntry">

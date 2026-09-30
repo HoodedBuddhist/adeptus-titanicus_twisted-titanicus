@@ -37,7 +37,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-mandatum-heavy-scout-max" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="tt26-heavy-mandatum-replace-warhound-warden" name="Replace optional Warhound with Warden" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8bca-e72a-a6b7-6e72" name="Replace optional Warhound with Warden" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -46,10 +46,10 @@
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-mandatum-replace-warhound-warden-max" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="93b3-46aa-0aab-2ec6" type="max"/>
               </constraints>
               <categoryLinks>
-                <categoryLink id="tt26-heavy-mandatum-replace-warhound-warden-category" name="Replace optional Warhound with Warden" hidden="false" targetId="warden-replace-optional-warhound" primary="false"/>
+                <categoryLink id="59f2-39f5-2009-1037" name="Replace optional Warhound with Warden" hidden="false" targetId="ad7c-c8cf-9c04-5f1a" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
@@ -64,7 +64,7 @@
           <modifiers>
             <modifier type="decrement" field="tt26-warhound-max" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -73,27 +73,27 @@
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-warhound-max" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="tt26-heavy-mandatum-warden" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="cf4c-ad15-c505-60f5" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="tt26-heavy-mandatum-warden-min" value="1.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
-              </conditions>
+            <modifier type="increment" field="7471-6302-9c9e-e2c5" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
-            <modifier type="set" field="tt26-heavy-mandatum-warden-max" value="1.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
-              </conditions>
+            <modifier type="increment" field="5ef6-2842-c2cf-5f34" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-mandatum-warden-min" type="min"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-mandatum-warden-max" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7471-6302-9c9e-e2c5" type="min"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5ef6-2842-c2cf-5f34" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="tt26-heavy-mandatum-titan-legion" name="Titan Legion" hidden="false" collective="false" import="false" targetId="6202-19dc-f26f-9b64" type="selectionEntry">
@@ -143,7 +143,7 @@ The Warhound Titans are Courtiers whose role it is to shield the King &amp; Quee
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-regia-heavy-scout-max" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="tt26-heavy-regia-replace-warhound-warden" name="Replace optional Warhound with Warden" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3bfe-ec96-5c8f-667c" name="Replace optional Warhound with Warden" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -152,10 +152,10 @@ The Warhound Titans are Courtiers whose role it is to shield the King &amp; Quee
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-regia-replace-warhound-warden-max" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cb57-470e-3953-833a" type="max"/>
               </constraints>
               <categoryLinks>
-                <categoryLink id="tt26-heavy-regia-replace-warhound-warden-category" name="Replace optional Warhound with Warden" hidden="false" targetId="warden-replace-optional-warhound" primary="false"/>
+                <categoryLink id="c14c-c2ef-f50c-a12f" name="Replace optional Warhound with Warden" hidden="false" targetId="ad7c-c8cf-9c04-5f1a" primary="false"/>
               </categoryLinks>
               <costs>
                 <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
@@ -176,7 +176,7 @@ The Warhound Titans are Courtiers whose role it is to shield the King &amp; Quee
           <modifiers>
             <modifier type="decrement" field="tt26-regia-warhound-max" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -185,27 +185,27 @@ The Warhound Titans are Courtiers whose role it is to shield the King &amp; Quee
             <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="tt26-regia-warhound-max" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="tt26-heavy-regia-warden" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="8e58-577a-261a-d0d5" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
               </conditions>
             </modifier>
-            <modifier type="set" field="tt26-heavy-regia-warden-min" value="1.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
-              </conditions>
+            <modifier type="increment" field="f89c-ea75-0c89-8f5b" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
-            <modifier type="set" field="tt26-heavy-regia-warden-max" value="1.0">
-              <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
-              </conditions>
+            <modifier type="increment" field="179b-38bc-4038-a5c8" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-regia-warden-min" type="min"/>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="tt26-heavy-regia-warden-max" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f89c-ea75-0c89-8f5b" type="min"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="179b-38bc-4038-a5c8" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="tt26-heavy-regia-titan-legion" name="Titan Legion" hidden="false" collective="false" import="false" targetId="6202-19dc-f26f-9b64" type="selectionEntry">
