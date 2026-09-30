@@ -24,6 +24,7 @@ NOTE 2: If after this you can see the Lance,but can&apos;t add any banners to it
     <publication id="3f10-4381-6c37-a2f9" name="Adeptus Titanicus 2018 Errata v1.2"/>
     <publication id="bf8b-27d7-039e-5df9" name="Traitor Legios" publisher=""/>
     <publication id="1bfe-3b2b-9b73-19ed" name="Wrath &amp; Fury"/>
+    <publication id="warden-titan-pub" name="Warden Heavy Scout Titan"/>
   </publications>
   <costTypes>
     <costType id="a731-e220-2d8a-41bf" name=" Points" defaultCostLimit="-1.0" hidden="false"/>
@@ -597,6 +598,7 @@ Each time a Save roll is failed, decrease the Construct Shield level by 1 - you 
         </rule>
       </rules>
     </categoryEntry>
+    <categoryEntry id="warden-titan-category" name="WardenTitan" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="stub-entry" name=" " hidden="true">
@@ -610,6 +612,482 @@ Each time a Save roll is failed, decrease the Construct Shield level by 1 - you 
     </forceEntry>
   </forceEntries>
   <sharedSelectionEntries>
+    <selectionEntry id="warden-titan" name="Warden Titan" publicationId="warden-titan-pub" page="" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="warden-titan-engine" name="Warden Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
+          <characteristics>
+            <characteristic name="Speed" typeId="0ef3-ea55-7cd1-d007">7&quot;/10&quot;</characteristic>
+            <characteristic name="Command" typeId="e94d-33bd-da82-fd4d">4+</characteristic>
+            <characteristic name="Ballistic Skill" typeId="f14c-a692-0b4a-c510">3+</characteristic>
+            <characteristic name="Weapon Skill" typeId="935c-7d79-d2fe-dcf8">4+</characteristic>
+            <characteristic name="Manuever" typeId="d9fc-a9ed-b5ab-e97c">2/4</characteristic>
+            <characteristic name="Servitor Clades" typeId="a877-9231-f92a-5538">3</characteristic>
+            <characteristic name="Scale" typeId="5359-4d2b-082b-546a">7</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="warden-heavy-scout-titan-rule" name="Heavy Scout Titan" publicationId="warden-titan-pub" page="" hidden="false">
+          <description>You may replace one optional Warhound or Reaver Titan in a maniple with a Warden Heavy Scout Titan. If you do so, the Warden counts as the same class of Titan it has replaced for the purposes of Maniple rules. A Warden Titan may not be taken by any Legio Audax force due to it being Scale 7.</description>
+        </rule>
+        <rule id="warden-auxiliary-titan-rule" name="Auxiliary Titan" publicationId="warden-titan-pub" page="" hidden="false">
+          <description>You may take one Warden Heavy Scout Titan as reinforcements for each maniple within your battlegroup.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="warden-titan-category-link-titan" name="Titan" hidden="false" targetId="3f71-3a59-3b75-4ecf" primary="false"/>
+        <categoryLink id="warden-titan-category-link-warden" name="WardenTitan" hidden="false" targetId="warden-titan-category" primary="true"/>
+        <categoryLink id="warden-titan-category-link-auxiliary" name="Auxiliary Titan" hidden="false" targetId="b2c2-c5d6-ee00-6736" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="warden-weapons" name="Weapons" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="warden-left-arm" name="Left Arm" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="warden-left-arm-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="warden-left-arm-max" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="warden-left-inferno-gun" name="Inferno Gun" hidden="false" collective="false" import="false" targetId="c7aa-80e5-43d2-0cfd" type="selectionEntry"/>
+                <entryLink id="warden-left-plasma-blast-gun" name="Plasma Blast Gun [WH]" hidden="false" collective="false" import="false" targetId="bd35-3f71-8bea-7e42" type="selectionEntry"/>
+                <entryLink id="warden-left-turbo-laser-destructor" name="Turbo Laser Destructor [WH]" hidden="false" collective="false" import="false" targetId="2165-2206-85af-b273" type="selectionEntry"/>
+                <entryLink id="warden-left-vulcan-megabolter" name="Vulcan Megabolter [WH]" hidden="false" collective="false" import="false" targetId="edcd-f43d-10ba-7f60" type="selectionEntry"/>
+                <entryLink id="warden-left-natrix-shock-lance" name="Natrix Shock Lance" hidden="false" collective="false" import="false" targetId="59e1-0284-05e3-4c67" type="selectionEntry"/>
+                <entryLink id="warden-left-volkite-eradicator" name="Volkite Eradicator [WH]" hidden="false" collective="false" import="true" targetId="2f29-8298-5888-bcc6" type="selectionEntry"/>
+                <entryLink id="warden-left-graviton-destructor" name="Graviton Destructor [WH]" hidden="false" collective="false" import="true" targetId="cfff-d280-9b0e-aadb" type="selectionEntry"/>
+                <entryLink id="warden-left-conversion-beam-dissolutor" name="Conversion Beam Dissolutor [WH]" hidden="false" collective="false" import="true" targetId="8bc9-6a75-d799-0d56" type="selectionEntry"/>
+                <entryLink id="warden-left-incisor-melta-lance" name="Incisor Pattern Melta Lance" hidden="false" collective="false" import="true" targetId="9cfc-2c4f-fa54-e935" type="selectionEntry"/>
+                <entryLink id="warden-left-swarmer-missiles" name="Swarmer Missiles" hidden="false" collective="false" import="true" targetId="834a-4f80-00fb-a341" type="selectionEntry"/>
+                <entryLink id="warden-left-shudder-missiles" name="Shudder Missiles" hidden="false" collective="false" import="true" targetId="6268-9937-423c-55d9" type="selectionEntry"/>
+                <entryLink id="warden-left-olympus-autocannon" name="Warden Olympus Autocannon" hidden="false" collective="false" import="true" targetId="warden-olympus-autocannon" type="selectionEntry"/>
+                <entryLink id="warden-left-chain-fist" name="Warden Chain Fist" hidden="false" collective="false" import="true" targetId="warden-chain-fist" type="selectionEntry"/>
+                <entryLink id="warden-left-mega-bolter" name="Warden Mega-Bolter" hidden="false" collective="false" import="true" targetId="warden-mega-bolter" type="selectionEntry"/>
+                <entryLink id="warden-left-melta-cannon" name="Warden Melta Cannon" hidden="false" collective="false" import="true" targetId="warden-melta-cannon" type="selectionEntry"/>
+                <entryLink id="warden-left-power-fist" name="Warden Power Fist" hidden="false" collective="false" import="true" targetId="warden-power-fist" type="selectionEntry"/>
+                <entryLink id="warden-left-swarmer-missiles-warden" name="Warden Swarmer Missiles" hidden="false" collective="false" import="true" targetId="warden-swarmer-missiles" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="warden-carapace" name="Carapace" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="warden-carapace-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="warden-carapace-max" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="warden-carapace-beam-cannon" name="Warden Beam Cannon" hidden="false" collective="false" import="true" targetId="warden-beam-cannon" type="selectionEntry"/>
+                <entryLink id="warden-carapace-gatling-blaster" name="Warden Gatling Blaster" hidden="false" collective="false" import="true" targetId="warden-gatling-blaster" type="selectionEntry"/>
+                <entryLink id="warden-carapace-harpoon" name="Warden Harpoon Carapace" hidden="false" collective="false" import="true" targetId="warden-harpoon-carapace" type="selectionEntry"/>
+                <entryLink id="warden-carapace-warclaw" name="Warden Warclaw Carapace" hidden="false" collective="false" import="true" targetId="warden-warclaw-carapace" type="selectionEntry"/>
+                <entryLink id="warden-carapace-aegis-protocol" name="Aegis Protocol" hidden="false" collective="false" import="true" targetId="warden-aegis-protocol" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="warden-right-arm" name="Right Arm" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="warden-right-arm-min" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="warden-right-arm-max" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="warden-right-inferno-gun" name="Inferno Gun" hidden="false" collective="false" import="false" targetId="c7aa-80e5-43d2-0cfd" type="selectionEntry"/>
+                <entryLink id="warden-right-plasma-blast-gun" name="Plasma Blast Gun [WH]" hidden="false" collective="false" import="false" targetId="bd35-3f71-8bea-7e42" type="selectionEntry"/>
+                <entryLink id="warden-right-turbo-laser-destructor" name="Turbo Laser Destructor [WH]" hidden="false" collective="false" import="false" targetId="2165-2206-85af-b273" type="selectionEntry"/>
+                <entryLink id="warden-right-vulcan-megabolter" name="Vulcan Megabolter [WH]" hidden="false" collective="false" import="false" targetId="edcd-f43d-10ba-7f60" type="selectionEntry"/>
+                <entryLink id="warden-right-natrix-shock-lance" name="Natrix Shock Lance" hidden="false" collective="false" import="false" targetId="59e1-0284-05e3-4c67" type="selectionEntry"/>
+                <entryLink id="warden-right-volkite-eradicator" name="Volkite Eradicator [WH]" hidden="false" collective="false" import="true" targetId="2f29-8298-5888-bcc6" type="selectionEntry"/>
+                <entryLink id="warden-right-graviton-destructor" name="Graviton Destructor [WH]" hidden="false" collective="false" import="true" targetId="cfff-d280-9b0e-aadb" type="selectionEntry"/>
+                <entryLink id="warden-right-conversion-beam-dissolutor" name="Conversion Beam Dissolutor [WH]" hidden="false" collective="false" import="true" targetId="8bc9-6a75-d799-0d56" type="selectionEntry"/>
+                <entryLink id="warden-right-incisor-melta-lance" name="Incisor Pattern Melta Lance" hidden="false" collective="false" import="true" targetId="9cfc-2c4f-fa54-e935" type="selectionEntry"/>
+                <entryLink id="warden-right-swarmer-missiles" name="Swarmer Missiles" hidden="false" collective="false" import="true" targetId="834a-4f80-00fb-a341" type="selectionEntry"/>
+                <entryLink id="warden-right-shudder-missiles" name="Shudder Missiles" hidden="false" collective="false" import="true" targetId="6268-9937-423c-55d9" type="selectionEntry"/>
+                <entryLink id="warden-right-olympus-autocannon" name="Warden Olympus Autocannon" hidden="false" collective="false" import="true" targetId="warden-olympus-autocannon" type="selectionEntry"/>
+                <entryLink id="warden-right-chain-fist" name="Warden Chain Fist" hidden="false" collective="false" import="true" targetId="warden-chain-fist" type="selectionEntry"/>
+                <entryLink id="warden-right-mega-bolter" name="Warden Mega-Bolter" hidden="false" collective="false" import="true" targetId="warden-mega-bolter" type="selectionEntry"/>
+                <entryLink id="warden-right-melta-cannon" name="Warden Melta Cannon" hidden="false" collective="false" import="true" targetId="warden-melta-cannon" type="selectionEntry"/>
+                <entryLink id="warden-right-power-fist" name="Warden Power Fist" hidden="false" collective="false" import="true" targetId="warden-power-fist" type="selectionEntry"/>
+                <entryLink id="warden-right-swarmer-missiles-warden" name="Warden Swarmer Missiles" hidden="false" collective="false" import="true" targetId="warden-swarmer-missiles" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="warden-titan-legion" name="Titan Legion" hidden="false" collective="false" import="false" targetId="6202-19dc-f26f-9b64" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6982-2d18-55cb-61e5" type="instanceOf"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b539-a35c-fe3f-9c34" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="warden-titan-legion-max" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="warden-titan-legion-min" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="warden-corrupt-titan" name="Corrupt Titan" hidden="false" collective="false" import="true" targetId="a6b6-2e17-4aaa-3ec0" type="selectionEntry"/>
+        <entryLink id="warden-princeps-seniores" name="Princeps Seniores" hidden="false" collective="false" import="true" targetId="2dc5-e9bf-6f6e-39a5" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="warden-princeps-seniores-category" name="Princeps Seniores" hidden="false" targetId="c130-1260-4c15-147a" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="warden-base-mutation" name="Base Mutation" hidden="false" collective="false" import="true" targetId="f085-672c-f8c5-11c1" type="selectionEntryGroup"/>
+        <entryLink id="warden-legio-specific-wargear" name="Legio Specific Wargear" hidden="false" collective="false" import="true" targetId="187f-a18f-cafe-4ae6" type="selectionEntryGroup"/>
+        <entryLink id="warden-loyalist-wargear" name="Loyalist Wargear" hidden="false" collective="false" import="true" targetId="c354-c2bb-8d84-0770" type="selectionEntryGroup"/>
+        <entryLink id="warden-traitor-wargear" name="Traitor Wargear" hidden="false" collective="false" import="true" targetId="3bce-46aa-99ca-8f60" type="selectionEntryGroup"/>
+        <entryLink id="warden-universal-wargear" name="Universal Wargear" hidden="false" collective="false" import="true" targetId="f360-b4bd-e6cd-d077" type="selectionEntryGroup"/>
+        <entryLink id="warden-additional-mutations" name="Additional Mutations" hidden="false" collective="false" import="true" targetId="b29a-98ec-a821-54f9" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="warden-additional-mutations-max" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="warden-personal-trait" name="Personal Trait" hidden="false" collective="false" import="true" targetId="aa6b-a665-b907-234e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="220.0"/>
+        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="warden-aegis-protocol" name="Aegis Protocol" publicationId="warden-titan-pub" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="warden-aegis-protocol-rule" name="Aegis Protocol" publicationId="warden-titan-pub" page="" hidden="false">
+          <description>Friendly Knight Banners wholly within 6&quot; of a Warden Titan count weapon attacks against them as 1 Strength lower than normal for the purposes of determining Ion Shield saves.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="0.0"/>
+        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="warden-olympus-autocannon" name="Warden Olympus Autocannon" publicationId="warden-titan-pub" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="warden-olympus-autocannon-profile" name="Warden Olympus Autocannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">4</characteristic>
+            <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">6</characteristic>
+            <characteristic name="Short Range" typeId="8320-f9a1-68a0-47c2">8&quot;</characteristic>
+            <characteristic name="Short Accuracy" typeId="68ee-0c9a-e4c2-4a34">-</characteristic>
+            <characteristic name="Long Range" typeId="bdee-aca0-6c3e-cc27">24&quot;</characteristic>
+            <characteristic name="Long Accuracy" typeId="98c1-7f92-4b2c-8d4c">-</characteristic>
+            <characteristic name="Disabled Roll" typeId="02bc-8716-7743-7b16">9+</characteristic>
+            <characteristic name="X Value" typeId="f14d-88df-2e41-f0b4">-</characteristic>
+            <characteristic name="Limited" typeId="b21f-61e9-4f0d-88e6">-</characteristic>
+            <characteristic name="Trait" typeId="bcd4-cb45-5d53-b7d8">Rending</characteristic>
+            <characteristic name="Critically Disabled Roll" typeId="2a6c-74d9-5a61-04bf">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="warden-olympus-autocannon-arm" name="Arm" hidden="false" targetId="44b5-8770-ea8e-2401" primary="true"/>
+        <categoryLink id="warden-olympus-autocannon-front" name="Arc: Front" hidden="false" targetId="6bfc-b62c-823a-5a29" primary="false"/>
+        <categoryLink id="warden-olympus-autocannon-rending" name="Rending" hidden="false" targetId="511f-4690-c2b7-9996" primary="false"/>
+        <categoryLink id="warden-olympus-autocannon-weapon" name="Weapon" hidden="false" targetId="8faf-9e14-9676-2327" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="warden-olympus-autocannon-destroyed" name="Weapon Destroyed" hidden="true" collective="false" import="false" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="warden-beam-cannon" name="Warden Beam Cannon" publicationId="warden-titan-pub" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="warden-beam-cannon-profile" name="Warden Beam Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
+            <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">9/11*</characteristic>
+            <characteristic name="Short Range" typeId="8320-f9a1-68a0-47c2">20&quot;</characteristic>
+            <characteristic name="Short Accuracy" typeId="68ee-0c9a-e4c2-4a34">-</characteristic>
+            <characteristic name="Long Range" typeId="bdee-aca0-6c3e-cc27">40&quot;</characteristic>
+            <characteristic name="Long Accuracy" typeId="98c1-7f92-4b2c-8d4c">-</characteristic>
+            <characteristic name="Disabled Roll" typeId="02bc-8716-7743-7b16">9+</characteristic>
+            <characteristic name="X Value" typeId="f14d-88df-2e41-f0b4">-</characteristic>
+            <characteristic name="Limited" typeId="b21f-61e9-4f0d-88e6">-</characteristic>
+            <characteristic name="Trait" typeId="bcd4-cb45-5d53-b7d8">Draining*</characteristic>
+            <characteristic name="Critically Disabled Roll" typeId="2a6c-74d9-5a61-04bf">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="warden-beam-cannon-carapace" name="Carapace" hidden="false" targetId="33e1-d3ed-4420-3e22" primary="true"/>
+        <categoryLink id="warden-beam-cannon-front" name="Arc: Front" hidden="false" targetId="6bfc-b62c-823a-5a29" primary="false"/>
+        <categoryLink id="warden-beam-cannon-draining" name="Draining" hidden="false" targetId="8ab9-d312-06e4-8ba0" primary="false"/>
+        <categoryLink id="warden-beam-cannon-weapon" name="Weapon" hidden="false" targetId="8faf-9e14-9676-2327" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="warden-beam-cannon-destroyed" name="Weapon Destroyed" hidden="true" collective="false" import="false" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="25.0"/>
+        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="warden-chain-fist" name="Warden Chain Fist" publicationId="warden-titan-pub" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="warden-chain-fist-profile" name="Warden Chain Fist" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
+            <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">6</characteristic>
+            <characteristic name="Short Range" typeId="8320-f9a1-68a0-47c2">2&quot;</characteristic>
+            <characteristic name="Short Accuracy" typeId="68ee-0c9a-e4c2-4a34">+2</characteristic>
+            <characteristic name="Long Range" typeId="bdee-aca0-6c3e-cc27">-</characteristic>
+            <characteristic name="Long Accuracy" typeId="98c1-7f92-4b2c-8d4c">-</characteristic>
+            <characteristic name="Disabled Roll" typeId="02bc-8716-7743-7b16">9+</characteristic>
+            <characteristic name="X Value" typeId="f14d-88df-2e41-f0b4">-</characteristic>
+            <characteristic name="Limited" typeId="b21f-61e9-4f0d-88e6">-</characteristic>
+            <characteristic name="Trait" typeId="bcd4-cb45-5d53-b7d8">Melee, Rending</characteristic>
+            <characteristic name="Critically Disabled Roll" typeId="2a6c-74d9-5a61-04bf">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="warden-chain-fist-arm" name="Arm" hidden="false" targetId="44b5-8770-ea8e-2401" primary="true"/>
+        <categoryLink id="warden-chain-fist-front" name="Arc: Front" hidden="false" targetId="6bfc-b62c-823a-5a29" primary="false"/>
+        <categoryLink id="warden-chain-fist-melee" name="Melee" hidden="false" targetId="4739-6f52-a293-aa06" primary="false"/>
+        <categoryLink id="warden-chain-fist-rending" name="Rending" hidden="false" targetId="511f-4690-c2b7-9996" primary="false"/>
+        <categoryLink id="warden-chain-fist-weapon" name="Weapon" hidden="false" targetId="8faf-9e14-9676-2327" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="warden-chain-fist-destroyed" name="Weapon Destroyed" hidden="true" collective="false" import="false" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="15.0"/>
+        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="warden-gatling-blaster" name="Warden Gatling Blaster" publicationId="warden-titan-pub" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="warden-gatling-blaster-profile" name="Warden Gatling Blaster" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">6</characteristic>
+            <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">5</characteristic>
+            <characteristic name="Short Range" typeId="8320-f9a1-68a0-47c2">8&quot;</characteristic>
+            <characteristic name="Short Accuracy" typeId="68ee-0c9a-e4c2-4a34">+1</characteristic>
+            <characteristic name="Long Range" typeId="bdee-aca0-6c3e-cc27">24&quot;</characteristic>
+            <characteristic name="Long Accuracy" typeId="98c1-7f92-4b2c-8d4c">-</characteristic>
+            <characteristic name="Disabled Roll" typeId="02bc-8716-7743-7b16">9+</characteristic>
+            <characteristic name="X Value" typeId="f14d-88df-2e41-f0b4">-</characteristic>
+            <characteristic name="Limited" typeId="b21f-61e9-4f0d-88e6">-</characteristic>
+            <characteristic name="Trait" typeId="bcd4-cb45-5d53-b7d8">Carapace, Ordnance</characteristic>
+            <characteristic name="Critically Disabled Roll" typeId="2a6c-74d9-5a61-04bf">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="warden-gatling-blaster-carapace" name="Carapace" hidden="false" targetId="33e1-d3ed-4420-3e22" primary="true"/>
+        <categoryLink id="warden-gatling-blaster-front" name="Arc: Front" hidden="false" targetId="6bfc-b62c-823a-5a29" primary="false"/>
+        <categoryLink id="warden-gatling-blaster-ordnance" name="Ordnance" hidden="false" targetId="5ad8-0ca8-4bb7-83b6" primary="false"/>
+        <categoryLink id="warden-gatling-blaster-weapon" name="Weapon" hidden="false" targetId="8faf-9e14-9676-2327" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="warden-gatling-blaster-destroyed" name="Weapon Destroyed" hidden="true" collective="false" import="false" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="25.0"/>
+        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="warden-harpoon-carapace" name="Warden Harpoon Carapace" publicationId="warden-titan-pub" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="warden-harpoon-carapace-profile" name="Warden Harpoon Carapace" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
+            <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
+            <characteristic name="Short Range" typeId="8320-f9a1-68a0-47c2">6&quot;</characteristic>
+            <characteristic name="Short Accuracy" typeId="68ee-0c9a-e4c2-4a34">+1</characteristic>
+            <characteristic name="Long Range" typeId="bdee-aca0-6c3e-cc27">10&quot;</characteristic>
+            <characteristic name="Long Accuracy" typeId="98c1-7f92-4b2c-8d4c">-</characteristic>
+            <characteristic name="Disabled Roll" typeId="02bc-8716-7743-7b16">9+</characteristic>
+            <characteristic name="X Value" typeId="f14d-88df-2e41-f0b4">-</characteristic>
+            <characteristic name="Limited" typeId="b21f-61e9-4f0d-88e6">-</characteristic>
+            <characteristic name="Trait" typeId="bcd4-cb45-5d53-b7d8">Bypass, Specialised, Shock (Draining)</characteristic>
+            <characteristic name="Critically Disabled Roll" typeId="2a6c-74d9-5a61-04bf">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="warden-harpoon-carapace-carapace" name="Carapace" hidden="false" targetId="33e1-d3ed-4420-3e22" primary="true"/>
+        <categoryLink id="warden-harpoon-carapace-front" name="Arc: Front" hidden="false" targetId="6bfc-b62c-823a-5a29" primary="false"/>
+        <categoryLink id="warden-harpoon-carapace-bypass" name="Bypass" hidden="false" targetId="719c-7b89-a08d-4acc" primary="false"/>
+        <categoryLink id="warden-harpoon-carapace-specialised" name="Specialised" hidden="false" targetId="7e70-5a5c-eee8-c911" primary="false"/>
+        <categoryLink id="warden-harpoon-carapace-shock" name="Shock" hidden="false" targetId="d3e0-093e-a13d-3deb" primary="false"/>
+        <categoryLink id="warden-harpoon-carapace-draining" name="Draining" hidden="false" targetId="8ab9-d312-06e4-8ba0" primary="false"/>
+        <categoryLink id="warden-harpoon-carapace-weapon" name="Weapon" hidden="false" targetId="8faf-9e14-9676-2327" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="warden-harpoon-carapace-destroyed" name="Weapon Destroyed" hidden="true" collective="false" import="false" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="20.0"/>
+        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="warden-mega-bolter" name="Warden Mega-Bolter" publicationId="warden-titan-pub" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="warden-mega-bolter-profile" name="Warden Mega-Bolter" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">6</characteristic>
+            <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
+            <characteristic name="Short Range" typeId="8320-f9a1-68a0-47c2">8&quot;</characteristic>
+            <characteristic name="Short Accuracy" typeId="68ee-0c9a-e4c2-4a34">+1</characteristic>
+            <characteristic name="Long Range" typeId="bdee-aca0-6c3e-cc27">20&quot;</characteristic>
+            <characteristic name="Long Accuracy" typeId="98c1-7f92-4b2c-8d4c">-</characteristic>
+            <characteristic name="Disabled Roll" typeId="02bc-8716-7743-7b16">9+</characteristic>
+            <characteristic name="X Value" typeId="f14d-88df-2e41-f0b4">-</characteristic>
+            <characteristic name="Limited" typeId="b21f-61e9-4f0d-88e6">-</characteristic>
+            <characteristic name="Trait" typeId="bcd4-cb45-5d53-b7d8">Rapid</characteristic>
+            <characteristic name="Critically Disabled Roll" typeId="2a6c-74d9-5a61-04bf">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="warden-mega-bolter-arm" name="Arm" hidden="false" targetId="44b5-8770-ea8e-2401" primary="true"/>
+        <categoryLink id="warden-mega-bolter-front" name="Arc: Front" hidden="false" targetId="6bfc-b62c-823a-5a29" primary="false"/>
+        <categoryLink id="warden-mega-bolter-rapid" name="Rapid" hidden="false" targetId="a421-ff94-44cf-2eb8" primary="false"/>
+        <categoryLink id="warden-mega-bolter-weapon" name="Weapon" hidden="false" targetId="8faf-9e14-9676-2327" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="warden-mega-bolter-destroyed" name="Weapon Destroyed" hidden="true" collective="false" import="false" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="10.0"/>
+        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="warden-melta-cannon" name="Warden Melta Cannon" publicationId="warden-titan-pub" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="warden-melta-cannon-profile" name="Warden Melta Cannon" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
+            <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">9</characteristic>
+            <characteristic name="Short Range" typeId="8320-f9a1-68a0-47c2">12&quot;</characteristic>
+            <characteristic name="Short Accuracy" typeId="68ee-0c9a-e4c2-4a34">-</characteristic>
+            <characteristic name="Long Range" typeId="bdee-aca0-6c3e-cc27">24&quot;</characteristic>
+            <characteristic name="Long Accuracy" typeId="98c1-7f92-4b2c-8d4c">-</characteristic>
+            <characteristic name="Disabled Roll" typeId="02bc-8716-7743-7b16">9+</characteristic>
+            <characteristic name="X Value" typeId="f14d-88df-2e41-f0b4">3&quot;</characteristic>
+            <characteristic name="Limited" typeId="b21f-61e9-4f0d-88e6">-</characteristic>
+            <characteristic name="Trait" typeId="bcd4-cb45-5d53-b7d8">Blast, Fusion</characteristic>
+            <characteristic name="Critically Disabled Roll" typeId="2a6c-74d9-5a61-04bf">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="warden-melta-cannon-arm" name="Arm" hidden="false" targetId="44b5-8770-ea8e-2401" primary="true"/>
+        <categoryLink id="warden-melta-cannon-front" name="Arc: Front" hidden="false" targetId="6bfc-b62c-823a-5a29" primary="false"/>
+        <categoryLink id="warden-melta-cannon-blast" name="Blast (X)" hidden="false" targetId="a8cf-34fb-66af-763c" primary="false"/>
+        <categoryLink id="warden-melta-cannon-fusion" name="Fusion" hidden="false" targetId="2e59-3e13-7382-4fac" primary="false"/>
+        <categoryLink id="warden-melta-cannon-weapon" name="Weapon" hidden="false" targetId="8faf-9e14-9676-2327" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="warden-melta-cannon-destroyed" name="Weapon Destroyed" hidden="true" collective="false" import="false" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="30.0"/>
+        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="warden-power-fist" name="Warden Power Fist" publicationId="warden-titan-pub" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="warden-power-fist-profile" name="Warden Power Fist" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">2</characteristic>
+            <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">7</characteristic>
+            <characteristic name="Short Range" typeId="8320-f9a1-68a0-47c2">2&quot;</characteristic>
+            <characteristic name="Short Accuracy" typeId="68ee-0c9a-e4c2-4a34">+2</characteristic>
+            <characteristic name="Long Range" typeId="bdee-aca0-6c3e-cc27">-</characteristic>
+            <characteristic name="Long Accuracy" typeId="98c1-7f92-4b2c-8d4c">-</characteristic>
+            <characteristic name="Disabled Roll" typeId="02bc-8716-7743-7b16">9+</characteristic>
+            <characteristic name="X Value" typeId="f14d-88df-2e41-f0b4">-</characteristic>
+            <characteristic name="Limited" typeId="b21f-61e9-4f0d-88e6">-</characteristic>
+            <characteristic name="Trait" typeId="bcd4-cb45-5d53-b7d8">Melee, Concussive</characteristic>
+            <characteristic name="Critically Disabled Roll" typeId="2a6c-74d9-5a61-04bf">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="warden-power-fist-arm" name="Arm" hidden="false" targetId="44b5-8770-ea8e-2401" primary="true"/>
+        <categoryLink id="warden-power-fist-front" name="Arc: Front" hidden="false" targetId="6bfc-b62c-823a-5a29" primary="false"/>
+        <categoryLink id="warden-power-fist-melee" name="Melee" hidden="false" targetId="4739-6f52-a293-aa06" primary="false"/>
+        <categoryLink id="warden-power-fist-concussive" name="Concussive" hidden="false" targetId="62f0-d5ca-5ce1-596f" primary="false"/>
+        <categoryLink id="warden-power-fist-weapon" name="Weapon" hidden="false" targetId="8faf-9e14-9676-2327" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="warden-power-fist-destroyed" name="Weapon Destroyed" hidden="true" collective="false" import="false" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="15.0"/>
+        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="warden-swarmer-missiles" name="Warden Swarmer Missiles" publicationId="warden-titan-pub" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="warden-swarmer-missiles-profile" name="Warden Swarmer Missiles" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">5</characteristic>
+            <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">4</characteristic>
+            <characteristic name="Short Range" typeId="8320-f9a1-68a0-47c2">12&quot;</characteristic>
+            <characteristic name="Short Accuracy" typeId="68ee-0c9a-e4c2-4a34">-1</characteristic>
+            <characteristic name="Long Range" typeId="bdee-aca0-6c3e-cc27">40&quot;</characteristic>
+            <characteristic name="Long Accuracy" typeId="98c1-7f92-4b2c-8d4c">-</characteristic>
+            <characteristic name="Disabled Roll" typeId="02bc-8716-7743-7b16">9+</characteristic>
+            <characteristic name="X Value" typeId="f14d-88df-2e41-f0b4">-</characteristic>
+            <characteristic name="Limited" typeId="b21f-61e9-4f0d-88e6">-</characteristic>
+            <characteristic name="Trait" typeId="bcd4-cb45-5d53-b7d8">Rapid</characteristic>
+            <characteristic name="Critically Disabled Roll" typeId="2a6c-74d9-5a61-04bf">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="warden-swarmer-missiles-arm" name="Arm" hidden="false" targetId="44b5-8770-ea8e-2401" primary="true"/>
+        <categoryLink id="warden-swarmer-missiles-front" name="Arc: Front" hidden="false" targetId="6bfc-b62c-823a-5a29" primary="false"/>
+        <categoryLink id="warden-swarmer-missiles-rapid" name="Rapid" hidden="false" targetId="a421-ff94-44cf-2eb8" primary="false"/>
+        <categoryLink id="warden-swarmer-missiles-weapon" name="Weapon" hidden="false" targetId="8faf-9e14-9676-2327" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="warden-swarmer-missiles-destroyed" name="Weapon Destroyed" hidden="true" collective="false" import="false" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="10.0"/>
+        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="warden-warclaw-carapace" name="Warden Warclaw Carapace" publicationId="warden-titan-pub" page="" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="warden-warclaw-carapace-profile" name="Warden Warclaw Carapace" hidden="false" typeId="b054-6896-e395-0e91" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Dice" typeId="fff8-b599-3d0a-2555">1</characteristic>
+            <characteristic name="Strength" typeId="2761-1395-aa4e-73bd">3</characteristic>
+            <characteristic name="Short Range" typeId="8320-f9a1-68a0-47c2">8&quot;</characteristic>
+            <characteristic name="Short Accuracy" typeId="68ee-0c9a-e4c2-4a34">-</characteristic>
+            <characteristic name="Long Range" typeId="bdee-aca0-6c3e-cc27">12&quot;</characteristic>
+            <characteristic name="Long Accuracy" typeId="98c1-7f92-4b2c-8d4c">-</characteristic>
+            <characteristic name="Disabled Roll" typeId="02bc-8716-7743-7b16">9+</characteristic>
+            <characteristic name="X Value" typeId="f14d-88df-2e41-f0b4">-</characteristic>
+            <characteristic name="Limited" typeId="b21f-61e9-4f0d-88e6">-</characteristic>
+            <characteristic name="Trait" typeId="bcd4-cb45-5d53-b7d8">Impale, Specialised</characteristic>
+            <characteristic name="Critically Disabled Roll" typeId="2a6c-74d9-5a61-04bf">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="warden-warclaw-carapace-carapace" name="Carapace" hidden="false" targetId="33e1-d3ed-4420-3e22" primary="true"/>
+        <categoryLink id="warden-warclaw-carapace-front" name="Arc: Front" hidden="false" targetId="6bfc-b62c-823a-5a29" primary="false"/>
+        <categoryLink id="warden-warclaw-carapace-impale" name="Impale" hidden="false" targetId="87f5-9eef-f2bc-d248" primary="false"/>
+        <categoryLink id="warden-warclaw-carapace-specialised" name="Specialised" hidden="false" targetId="7e70-5a5c-eee8-c911" primary="false"/>
+        <categoryLink id="warden-warclaw-carapace-weapon" name="Weapon" hidden="false" targetId="8faf-9e14-9676-2327" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="warden-warclaw-carapace-destroyed" name="Weapon Destroyed" hidden="true" collective="false" import="false" targetId="bad0-317f-20ed-813e" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="a731-e220-2d8a-41bf" value="10.0"/>
+        <cost name=" Stratagem Points" typeId="efbf-52f7-fd08-f329" value="0.0"/>
+      </costs>
+    </selectionEntry>
     <selectionEntry id="bad0-317f-20ed-813e" name="Weapon Destroyed" hidden="true" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7459-5184-5cda-9065" type="max"/>
