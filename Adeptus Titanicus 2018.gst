@@ -612,7 +612,7 @@ Each time a Save roll is failed, decrease the Construct Shield level by 1 - you 
     </forceEntry>
   </forceEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="warden-titan" name="Warden Titan" publicationId="warden-titan-pub" page="" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="2cb4-22d6-ef9b-7cf8" name="Warden Titan" publicationId="warden-titan-pub" page="" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="warden-titan-engine" name="Warden Titan" hidden="false" typeId="f6b0-d09f-1acc-9f3e" typeName="Engine">
           <characteristics>
@@ -7978,7 +7978,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bffe-826b-cb9c-375d" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="warden-fcfd-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="warden-fcfd-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -7990,22 +7990,14 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </conditionGroups>
             </modifier>
             <modifier type="increment" field="warden-fcfd-titan-min" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="increment" field="warden-fcfd-titan-max" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
@@ -8951,7 +8943,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b446-f13d-8a2b-3870" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="warden-740e-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="warden-740e-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -8963,22 +8955,14 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </conditionGroups>
             </modifier>
             <modifier type="increment" field="warden-740e-titan-min" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="increment" field="warden-740e-titan-max" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
@@ -10161,7 +10145,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f13-9124-974d-f2c1" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="warden-3ca3-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="warden-3ca3-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -10174,24 +10158,16 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </conditionGroups>
             </modifier>
             <modifier type="increment" field="warden-3ca3-titan-min" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="increment" field="warden-3ca3-titan-max" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
@@ -10724,7 +10700,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c52-80bf-befb-fafd" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="warden-241d-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="warden-241d-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -10736,22 +10712,14 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </conditionGroups>
             </modifier>
             <modifier type="increment" field="warden-241d-titan-min" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="increment" field="warden-241d-titan-max" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
@@ -11540,7 +11508,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a19e-1cbf-8476-8141" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="warden-56b0-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="warden-56b0-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -11553,24 +11521,16 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </conditionGroups>
             </modifier>
             <modifier type="increment" field="warden-56b0-titan-min" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="increment" field="warden-56b0-titan-max" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
@@ -12331,7 +12291,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0eba-e490-5637-867a" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="warden-51b7-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="warden-51b7-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -12343,22 +12303,14 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </conditionGroups>
             </modifier>
             <modifier type="increment" field="warden-51b7-titan-min" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="increment" field="warden-51b7-titan-max" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
@@ -12764,7 +12716,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d61-cfb9-43e4-914a" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="warden-26ca-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="warden-26ca-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -12776,22 +12728,14 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </conditionGroups>
             </modifier>
             <modifier type="increment" field="warden-26ca-titan-min" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="increment" field="warden-26ca-titan-max" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
@@ -13801,7 +13745,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bfd-ea67-d23a-f97d" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="warden-22ac-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="warden-22ac-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -13813,22 +13757,14 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </conditionGroups>
             </modifier>
             <modifier type="increment" field="warden-22ac-titan-min" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="increment" field="warden-22ac-titan-max" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
@@ -14777,7 +14713,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00c0-994f-b59f-5e33" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="warden-2004-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="warden-2004-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -14789,22 +14725,14 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </conditionGroups>
             </modifier>
             <modifier type="increment" field="warden-2004-titan-min" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="increment" field="warden-2004-titan-max" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
@@ -15592,7 +15520,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b04e-a3c2-bf95-490f" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="warden-365e-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="warden-365e-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -15605,24 +15533,16 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </conditionGroups>
             </modifier>
             <modifier type="increment" field="warden-365e-titan-min" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="increment" field="warden-365e-titan-max" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
@@ -16145,7 +16065,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c633-4d0e-1729-2b98" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="warden-ff4b-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="warden-ff4b-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -16157,22 +16077,14 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </conditionGroups>
             </modifier>
             <modifier type="increment" field="warden-ff4b-titan-min" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="increment" field="warden-ff4b-titan-max" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
@@ -16785,7 +16697,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e69-f7f1-88db-097d" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="warden-719e-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="warden-719e-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -16797,22 +16709,14 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </conditionGroups>
             </modifier>
             <modifier type="increment" field="warden-719e-titan-min" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="increment" field="warden-719e-titan-max" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
@@ -17553,7 +17457,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9548-c5d5-a6b8-15af" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="warden-f969-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="warden-f969-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -17565,22 +17469,14 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               </conditionGroups>
             </modifier>
             <modifier type="increment" field="warden-f969-titan-min" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="increment" field="warden-f969-titan-max" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
@@ -18515,7 +18411,7 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05e5-6490-6416-379c" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="warden-fd1f-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="warden-fd1f-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -18527,22 +18423,14 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               </conditionGroups>
             </modifier>
             <modifier type="increment" field="warden-fd1f-titan-min" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="increment" field="warden-fd1f-titan-max" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
@@ -19777,7 +19665,7 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c699-5b36-dcb2-ae5c" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="warden-7fa2-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="warden-7fa2-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -19789,22 +19677,14 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               </conditionGroups>
             </modifier>
             <modifier type="increment" field="warden-7fa2-titan-min" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="increment" field="warden-7fa2-titan-max" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
@@ -20224,7 +20104,7 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1df-07aa-a559-33a6" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="warden-ab5b-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="warden-ab5b-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -20236,22 +20116,14 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               </conditionGroups>
             </modifier>
             <modifier type="increment" field="warden-ab5b-titan-min" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="increment" field="warden-ab5b-titan-max" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>
@@ -21366,7 +21238,7 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00f0-686d-88c9-aea3" type="min"/>
           </constraints>
         </entryLink>
-        <entryLink id="warden-6e74-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+        <entryLink id="warden-6e74-titan" name="Warden Titan" hidden="true" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false">
               <conditionGroups>
@@ -21379,24 +21251,16 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               </conditionGroups>
             </modifier>
             <modifier type="increment" field="warden-6e74-titan-min" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
             <modifier type="increment" field="warden-6e74-titan-max" value="1.0">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" type="atLeast"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <repeats>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad7c-c8cf-9c04-5f1a" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b756-bf5d-bd70-6fbb" repeats="1" roundUp="false"/>
+              </repeats>
             </modifier>
           </modifiers>
           <constraints>

@@ -953,7 +953,7 @@
         <categoryLink id="8b07-8368-d9c0-056e" name="New CategoryLink" hidden="false" targetId="917a-77ef-30e4-b812" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="warden-titan-battlegroup-entry" name="Warden Titan" hidden="false" collective="false" import="true" targetId="warden-titan" type="selectionEntry">
+    <entryLink id="warden-titan-battlegroup-entry" name="Warden Titan" hidden="false" collective="false" import="true" targetId="2cb4-22d6-ef9b-7cf8" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
