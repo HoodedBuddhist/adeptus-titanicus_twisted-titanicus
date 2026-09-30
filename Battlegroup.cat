@@ -5,7 +5,6 @@
   </publications>
   <catalogueLinks>
     <catalogueLink id="tt26-battlegroup-link" name="Twisted Titanicus" targetId="tt26-retr-2026-cat" type="catalogue" importRootEntries="false"/>
-    <catalogueLink id="warden-titan-battlegroup-link" name="Warden Titan" targetId="warden-titan-cat" type="catalogue" importRootEntries="false"/>
   </catalogueLinks>
   <forceEntries>
     <forceEntry id="d377-9ed7-0d3e-7f70" name="Battlegroup" hidden="false">
