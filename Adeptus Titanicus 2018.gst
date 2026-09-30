@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="975a-00f4-df37-b565" name="Adeptus Titanicus 2018: Twisted Titanicus" revision="98" battleScribeVersion="2.03" authorName="Play Titanicus BS Team" authorContact="You can find us on the Discord Server for comments and feedback:  https://discord.com/invite/UrrPB3T" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="975a-00f4-df37-b565" name="Adeptus Titanicus 2018: Twisted Titanicus" revision="99" battleScribeVersion="2.03" authorName="Play Titanicus BS Team" authorContact="You can find us on the Discord Server for comments and feedback:  https://discord.com/invite/UrrPB3T" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Create a Legio Battlegroup by adding a Battlegroup to your Roster. Maniples and Reinforcements can be added directly to a Legio Battlegroup!
 
 To create a Household Battlegroup add a Household to your Roster. Each Lance is a separate Force that needs to be added to your Household. Reinforcements can then be added directly to your Household, or each of your added Lance forces!
@@ -24276,6 +24276,11 @@ For example, if the Reaver from a Venator Light Maniple was replaced with a Warl
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5218-ff2f-3ac3-5acd" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="8d4b-c5e0-a2de-19e1" name="Princeps Seniores" hidden="false" collective="false" import="true" targetId="2dc5-e9bf-6f6e-39a5" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="d176-728a-47cb-c599" name="Princeps Seniores" hidden="false" targetId="c130-1260-4c15-147a" primary="false"/>
+          </categoryLinks>
+        </entryLink>
         <entryLink id="73ce-e513-8b62-aaca" name="Legio Specific Wargear" hidden="false" collective="false" import="false" targetId="187f-a18f-cafe-4ae6" type="selectionEntryGroup"/>
         <entryLink id="b65c-9738-14e6-5ffc" name="Loyalist Wargear" hidden="false" collective="false" import="true" targetId="c354-c2bb-8d84-0770" type="selectionEntryGroup"/>
         <entryLink id="4d5a-c123-302f-107e" name="Universal Wargear" hidden="false" collective="false" import="true" targetId="f360-b4bd-e6cd-d077" type="selectionEntryGroup"/>
@@ -24287,6 +24292,7 @@ For example, if the Reaver from a Venator Light Maniple was replaced with a Warl
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6102-5061-22da-a0b6" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="2fb9-69c2-83a1-f4e7" name="Personal Trait" hidden="false" collective="false" import="true" targetId="aa6b-a665-b907-234e" type="selectionEntryGroup"/>
         <entryLink id="4242-2e7d-2598-ed46" name="Ancillary Reactor System" hidden="false" collective="false" import="true" targetId="4714-166b-0f6a-5260" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5550-4382-a169-feb8" type="min"/>
@@ -25436,6 +25442,11 @@ A Corrupted Titan commanded by a Princeps Seniores rolls a D6 on the Corrupted T
             <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4e7-2761-cd28-4590" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="0e3c-371d-008b-b24f" name="Princeps Seniores" hidden="false" collective="false" import="true" targetId="2dc5-e9bf-6f6e-39a5" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="f258-7a6e-2735-a79d" name="Princeps Seniores" hidden="false" targetId="c130-1260-4c15-147a" primary="false"/>
+          </categoryLinks>
+        </entryLink>
         <entryLink id="5658-d710-1366-1738" name="Legio Specific Wargear" hidden="false" collective="false" import="true" targetId="187f-a18f-cafe-4ae6" type="selectionEntryGroup"/>
         <entryLink id="d2b5-8a58-2fc0-ed72" name="Loyalist Wargear" hidden="false" collective="false" import="true" targetId="c354-c2bb-8d84-0770" type="selectionEntryGroup"/>
         <entryLink id="db5c-2136-1b19-bcae" name="Universal Wargear" hidden="false" collective="false" import="true" targetId="f360-b4bd-e6cd-d077" type="selectionEntryGroup"/>
@@ -25447,6 +25458,7 @@ A Corrupted Titan commanded by a Princeps Seniores rolls a D6 on the Corrupted T
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f5f6-c908-6c0d-5aaf" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="c13b-a2a2-1c69-8652" name="Personal Trait" hidden="false" collective="false" import="true" targetId="aa6b-a665-b907-234e" type="selectionEntryGroup"/>
         <entryLink id="2150-108b-8691-fad4" name="Ancillary Reactor System" hidden="false" collective="false" import="true" targetId="4714-166b-0f6a-5260" type="selectionEntryGroup">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5efe-d557-fbe9-1521" type="min"/>
