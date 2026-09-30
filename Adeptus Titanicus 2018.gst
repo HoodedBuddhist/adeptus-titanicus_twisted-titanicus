@@ -7245,7 +7245,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             </modifier>
             <modifier type="decrement" field="124a-743e-536c-5546" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -7506,7 +7506,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -7515,7 +7515,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -7524,7 +7524,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -8183,7 +8183,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             </modifier>
             <modifier type="decrement" field="ae73-44f7-3a1e-c536" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -8479,7 +8479,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -8488,7 +8488,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -8497,7 +8497,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -9260,7 +9260,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             </modifier>
             <modifier type="decrement" field="3a16-e37f-de62-e329" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -9366,7 +9366,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             </modifier>
             <modifier type="decrement" field="d011-abe9-ffd9-10b6" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -9689,8 +9689,8 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -9699,8 +9699,8 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -9709,8 +9709,8 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -10021,7 +10021,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             </modifier>
             <modifier type="decrement" field="3201-7f9d-bbe4-e121" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -10252,7 +10252,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -10261,7 +10261,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -10270,7 +10270,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -10759,7 +10759,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             </modifier>
             <modifier type="decrement" field="a3b6-c6b9-ac60-617d" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -10803,7 +10803,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             </modifier>
             <modifier type="decrement" field="6f37-979e-47fe-7098" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -11068,8 +11068,8 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -11078,8 +11078,8 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -11088,8 +11088,8 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -11558,7 +11558,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             </modifier>
             <modifier type="decrement" field="9c80-07d9-8233-0331" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -11859,7 +11859,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -11868,7 +11868,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -11877,7 +11877,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -12126,7 +12126,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             </modifier>
             <modifier type="decrement" field="f6a3-2c2d-9562-dac0" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -12292,7 +12292,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -12301,7 +12301,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -12310,7 +12310,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -12904,7 +12904,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             </modifier>
             <modifier type="decrement" field="4450-239e-952e-b8e9" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -13329,7 +13329,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -13338,7 +13338,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -13347,7 +13347,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -14004,7 +14004,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             </modifier>
             <modifier type="decrement" field="0367-10c5-5cf5-71a2" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -14305,7 +14305,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -14314,7 +14314,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -14323,7 +14323,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -14807,7 +14807,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             </modifier>
             <modifier type="decrement" field="7d26-0a5d-3cbd-4c28" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -14865,7 +14865,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             </modifier>
             <modifier type="decrement" field="997f-69f2-59b5-a4e2" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -15120,8 +15120,8 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -15130,8 +15130,8 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -15140,8 +15140,8 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -15459,7 +15459,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             </modifier>
             <modifier type="decrement" field="a10c-04b0-24c7-38cf" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -15673,7 +15673,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -15682,7 +15682,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -15691,7 +15691,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -16076,7 +16076,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             </modifier>
             <modifier type="decrement" field="d049-710a-cfe3-2097" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -16313,7 +16313,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -16322,7 +16322,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -16331,7 +16331,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -16775,7 +16775,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
             </modifier>
             <modifier type="decrement" field="9c21-219f-eb16-73a0" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -17081,7 +17081,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -17090,7 +17090,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -17099,7 +17099,7 @@ The first Critical Hit a Titan with this upgrade receives is downgraded to a Dev
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -17752,7 +17752,7 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
             </modifier>
             <modifier type="decrement" field="079a-2edc-cbc9-fb63" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -18043,7 +18043,7 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -18052,7 +18052,7 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -18061,7 +18061,7 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -19016,7 +19016,7 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
             </modifier>
             <modifier type="decrement" field="8fc1-f430-7854-6e63" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -19305,7 +19305,7 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -19314,7 +19314,7 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -19323,7 +19323,7 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -19586,7 +19586,7 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
             </modifier>
             <modifier type="decrement" field="fb74-a086-4d5c-6596" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -19752,7 +19752,7 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -19761,7 +19761,7 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -19770,7 +19770,7 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -20476,7 +20476,7 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
             </modifier>
             <modifier type="decrement" field="9016-fc67-e2dd-0af6" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -20613,7 +20613,7 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
             </modifier>
             <modifier type="decrement" field="09a9-9a9e-ecbc-c3ab" value="1.0">
               <repeats>
-                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" repeats="1" roundUp="false"/>
               </repeats>
             </modifier>
           </modifiers>
@@ -20894,8 +20894,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -20904,8 +20904,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
@@ -20914,8 +20914,8 @@ If a player has more than one Canis Light Maniple, each maniple beyond the first
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
-                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-warhound" type="atLeast"/>
+                  <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="warden-replace-optional-reaver" type="atLeast"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
