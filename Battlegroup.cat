@@ -4,7 +4,7 @@
     <publication id="7c04-d50d-pubN65537" name="Adeptus Titanicus 2018"/>
   </publications>
   <catalogueLinks>
-    <catalogueLink id="tt26-battlegroup-link" name="Twisted Titanicus" targetId="tt26-retr-2026-cat" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="tt26-battlegroup-link" name="Twisted Titanicus" targetId="tt26-retr-2026-cat" type="catalogue" importRootEntries="false"/>
     <catalogueLink id="warden-titan-battlegroup-link" name="Warden Titan" targetId="warden-titan-cat" type="catalogue" importRootEntries="false"/>
   </catalogueLinks>
   <forceEntries>
